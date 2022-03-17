@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://images8.alphacoders.com/755/thumb-1920-755323.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Martel', serif;
+    font-style: italic;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+
+img {
+    height: 600px;
+    width: 200px;
+}
+
+.hover {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .hover:hover {
+    box-shadow: 6px 6px 40px 10px black;
+  }
